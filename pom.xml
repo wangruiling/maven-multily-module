@@ -21,7 +21,7 @@
         <fastjson.version>1.2.41</fastjson.version>
         <lombok.version>1.16.8</lombok.version>
         <mybatis.version>3.2.8</mybatis.version>
-        <spring.version>5.0.8.RELEASE</spring.version>
+        <spring.version>5.2.4.RELEASE</spring.version>
         <lombok.version>1.16.22</lombok.version>
         <commons.version>3.2.2</commons.version>
         <!--所有依赖的外部jar包版本号统一设置在此-->
@@ -102,7 +102,7 @@
             <plugin>
                 <groupId>org.codehaus.mojo</groupId>
                 <artifactId>versions-maven-plugin</artifactId>
-                <version>2.3</version>
+                <version>2.7</version>
                 <configuration>
                     <generateBackupPoms>false</generateBackupPoms>
                 </configuration>
@@ -110,7 +110,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-source-plugin</artifactId>
-                <version>3.0.1</version>
+                <version>3.2.0</version>
                 <executions>
                     <execution>
                         <id>attach-sources</id>
